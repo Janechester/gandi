@@ -1,0 +1,261 @@
+
+/*****************GENERAL***********************/
+
+
+body{
+
+  background-color: white;
+  font-family: 'open sans', sans serif;
+  background-image: "./plane";
+}
+/*****************TEXT***********************/
+a{
+  text-decoration: none;
+  color:white;
+} 
+/*****************HEADERS***********************/
+header {
+  background: lightgrey;
+  border-color: white;
+  padding: 25px;
+  float: left;
+  margin:  0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+
+
+
+
+}
+
+h1, h2 {
+  color: white;
+  text-align: center;
+  font-family: 'open sans', sans-serif;
+  margin: 0;
+  font-size: 1.75em;
+}
+
+
+
+/*****************NAVIGATION***********************/
+#nav {
+    width: 500px;
+    text-align: center;
+    background: lightgrey;
+    margin: auto;
+    padding-bottom: 35px;
+    list-style-type: none;
+  
+  }
+
+ 
+
+nav a, nav a: visited {
+  color: white;
+}
+
+
+nav a.selected  {
+  color: #32673f;
+}
+
+nav a:hover {
+  color: blue;
+}
+
+#nav li {
+  color: white;
+  float: left;
+  text-align: center;
+  display: block;
+
+}
+
+#nav a {
+  display: block;
+  text-align: center;
+  width: 150px;
+  clear: both;
+  text-decoration:none; 
+  font-weight: 300;
+
+}
+
+/*****************Body***********************/
+body {
+  background-color: FFF;
+  color: #999;
+  background-image: "https://www.instagram.com/p/7_u4aNvabjnwSksl_g2Wyz5qIzw7Ss4v5tlk40/?taken-by=janechesty;";
+  margin: auto;
+
+}
+
+.list {
+  list-style-type: none;
+}
+
+.gallery li{
+  float: left;
+  display: block; 
+  margin: auto;
+}
+
+.gallery {
+  display: block;
+  margin: auto;
+}
+
+.gallery li:nth-child(2){
+  float: none;
+}
+
+
+.gallery li:nth-child(4){
+  float: none;
+  }
+
+
+#appstore {
+  max-width: 100%;
+  padding-top: auto;
+  margin: auto;
+}
+
+#thebod {
+
+}
+
+
+/*****************FOOTER***********************/
+footer {
+  font-size: 1.00em;
+  color: white;  
+  background: lightgrey;
+  text-align: center;
+  clear: both;
+  margin-bottom: 50px; 
+  margin-top: 50px;
+  height:150px; 
+}
+
+
+.social-icon {
+  width: 50px;
+  height: 50px;
+  margin: 0 5px;
+}
+
+
+
+
+
+
+
+
+/*****************{PAGE} PORTFOLIO***********************/
+.gallery {
+  margin: auto;
+  padding 0;
+  list-style: none;
+  display: block;
+  width: 50%;
+  float: none;
+}
+
+#gallery li {
+
+  width: 45%;
+  margin: 2.5%
+
+}
+
+#list {
+  float: left;
+}
+
+
+
+
+
+/***************** APPLICATIONS PAGE********************/
+.app {
+  background-color: FFFF99;
+  display: block;
+  text-align: center;
+  clear: both;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.video {
+  display: block;
+  text-align: center;
+  clear: both;
+  padding: 100 100 100 100;
+}
+
+.image {
+  /*border: 1px solid;*/
+ border-radius: 100%;
+
+}
+
+
+.allapps {
+  margin: auto;
+  display:inline-block;
+
+}
+
+
+
+/*****************IDENTIFIED SECTIONS***********************/
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+  background: orange; 
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
+}
+
+
+
+/*****************CONTACT PAGE***********************/
+.form {
+  color: black;
+}
+
+#N {
+  margin-left: 23px;
+}
+
+
+#P {
+  margin-left:5px;
+}
+
+
+label{
+  display: inline-block;
+  width: 45%; 
+}
+
+input {
+  display: inline-block;
+
+}
+
+
+
+/*****************IDENTIFIED SECTIONS***********************/
+
+
+
+
+
