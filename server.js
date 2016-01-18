@@ -6,7 +6,7 @@ var port = process.env['PORT'] || 8080;
 app.use( express.static( __dirname + '/' ) );
 
 app.get( '/', function( req, res ) {
-  res.sendFile( __dirname + '/janechesterportfolio/janechesterportfolio.html' );
+  res.sendFile( __dirname + '/janechesterportfolio.html' );
  } );
 
 http.listen( port, function() {
