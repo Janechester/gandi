@@ -18,7 +18,7 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "../mail/contact_me.php",
+                url: "/jcport/mail/contact_me.php",
                 type: "POST",
                 data: {
                     name: name,
@@ -41,7 +41,6 @@ $(function() {
                     $('#contactForm').trigger("reset");
                 },
                 error: function( error ) {
-                    console.log( error );
                     // Fail message
                     $('#success').html("<div class='alert alert-danger'>");
                     $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
@@ -51,7 +50,7 @@ $(function() {
                     //clear all fields
                     $('#contactForm').trigger("reset");
                 },
-            })
+            });
         },
         filter: function() {
             return $(this).is(":visible");
