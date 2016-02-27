@@ -1,0 +1,76 @@
+body {
+	background-image: url("chad.jpg");
+	background-size: 100%;
+	font-family: Helvetica;
+}
+
+.cont1 {
+	color: white;
+	list-style-type: none;
+	/*padding:100px;*/
+	padding-top: 60%;
+	padding-left: 10%;
+	position: absolute;
+	z-index: -1
+}
+
+
+.image {
+	height: 100px;
+}
+
+.cont2 {
+	color: blue;
+	list-style-type: none;
+	padding-top: 80%;
+	padding-left: 10%;
+	position: absolute;
+	z-index: 1
+}
+
+.text {
+	color: white;
+	position: relative;
+	z-index:3;
+	font-size: 10%;
+	padding-top: 220px;
+	padding-left: 39%;
+	/*align-content: center;*/
+	vertical-align: middle;
+}
+
+.warning {
+padding-left: 39%;
+position: absolute;
+vertical-align: middle;
+/*padding: 10%;*/
+}
+/*
+.progress {
+padding-left: 70%;
+
+}*/
+
+
+
+.container3 {
+    display: table;
+    vertical-align: middle;
+
+}
+
+.wrapping-paper {
+	/*vertical-align: right;*/
+	padding-left: 37%;
+	padding-top: 4%;
+	position: relative;
+	z-index: 1
+
+}
+
+.abso{
+	position: absolute;
+	color: black;
+	size: 100px	;
+}
+
