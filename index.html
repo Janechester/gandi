@@ -1,313 +1,814 @@
-<!DOCTYPE HTML>
-<!--
-	Twenty by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Twenty by HTML5 UP</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-	
+<!DOCTYPE html>
+<html lang="en">
 
-<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<head>
+    <meta charset="UTF-8">
+    <title>Jane Chester Portfolio</title>
+    <!-- ___Bootstrap___ -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <!-- ___Favicon___ -->
+    <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+    <!--Style-->
 
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-<meta name="theme-color" content="#ffffff">
+	<!-- Include font Awesome -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="bootstrap-social.css">
 
 
-<link rel="apple-touch-icon" href="http://example.com/images/apple-touch-icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    
 
-<link rel="icon" href="favicon.ico" type="image/x-icon"/>
-<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+    <style>
+    body {
+        background-image: url("chad.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 100px;
+        max-height: 100px;
+        background-color: darkgray;
+    }
+    
+    .major {
+        color: white;
+        padding-top: 200px;
+        text-transform: uppercase;
+    }
+    
+    .test {
+        width: 100px;
+    }
+    
+    .carpet {
+        min-height: 2000px;
+        max-width: 600px;
+        align: center;
+        display: inline-block;
+        padding-top: 1000px;
+    }
+    
+    .h1 {
+        font-size: 300em;
+        line-height: 1.25em;
+    }
+    
+    #title {
+        font-size: 1px;
+        font-weight: bold;
+    }
+
+
+    .btn-xlarge {
+    padding: 18px 28px;
+    font-size: 15px;
+    line-height: normal;
+    -webkit-border-radius: 2px;
+       -moz-border-radius: 2px;
+            border-radius: 2px;
+	}
+
+	.btn {
+		text-transform: uppercase;
+	}
+
+	.text {
+		text-transform: none;	}
+
+/*
+    .col-md-4{
+    	border-color: white;
+    	border-size: 2px;
+    	border-style: solid;
+    }*/
+
+        .header {
+        color: #36A0FF;
+        font-size: 27px;
+        padding: 10px;
+    }
+
+    .bigicon {
+        font-size: 35px;
+        color: #36A0FF;
+    }
+    </style>
 
 
 
 
+
+
+</head>
+
+
+<body>
+
+
+<!-- ***************************HEADER  -->
+    <section id="header" style="text-align: center;">
+        <header class="major">
+            <div class="col-md-12>">
+                <h1 style="font-size: 50px ">Jane Chester</h1>
+                <p style="padding-top: none; padding-bottom: 10px; font-size: 20px; text-transform:none">Junior Software Developer
+                    
+
+<!-- ***************************BUTTONS  -->					
+<div style="padding-bottom: 175px; text-transform: none">               
+<button type="button" class="btn btn-primary glyphicon glyphicon-user" style="text-transform: none" data-toggle="modal" data-target="#about"> About</button>    
+<button type="button" class="btn btn-primary glyphicon glyphicon-folder-open"  style="text-transform: none" data-toggle="modal" data-target="#myProjects"> Projects</button>
+<button type="button" class="btn btn-primary glyphicon glyphicon-earphone" style="text-transform: none" data-toggle="modal" data-target="#contact"> Contact</button>
+<!-- ***************************BUTTONS(end)  -->
+  
+
+
+<div id="contact" class="modal fade" role="dialog" style="padding-top:190px">
+
+<section class="container-fluid">
+		<!-- <div class="row"> -->
+		<div class="col-sm-4" style="background-color:none; height: 250px;"></div>
+		<div class="col-sm-4" style="background-color:#eee; height: 250px; color: gray; border-radius: 2%">
+
+<h1> 
+	Contact
+</h1>
+
+<i class="fa fa-user bigicon"> Jane Chester</i><p><p>
+<p>
+<p>
+<p><i class="fa fa-phone-square bigicon"> 0408214155</i>
+
+<!-- <div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="well well-sm">
+                <form class="form-horizontal" method="post">
+                    <fieldset>
+                        <legend class="text-center header">Contact us</legend>
+
+                        <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                            <div class="col-md-8">
+                                <input id="fname" name="name" type="text" placeholder="First Name" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                            <div class="col-md-8">
+                                <input id="lname" name="name" type="text" placeholder="Last Name" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
+                            <div class="col-md-8">
+                                <input id="email" name="email" type="text" placeholder="Email Address" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
+                            <div class="col-md-8">
+                                <input id="phone" name="phone" type="text" placeholder="Phone" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
+                            <div class="col-md-8">
+                                <textarea class="form-control" id="message" name="message" placeholder="Enter your massage for us here. We will get back to you within 2 business days." rows="7"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-md-12 text-center">
+                                <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+</div> -->
 
 <style>
-a.button.special {
-	background: #425F9B;
-}
-
-
-.wrapper.style2 {
-
-	background: #425F9B;
 
 </style>
 
-	</head>
-	<body class="index">
-		<div id="page-wrapper">
-
-			<!-- Header -->
-				<header id="header" class="alt">
-					<h1 id="logo"><a href="index.html">Flack <span>responsive bot</span></a></h1>
-					<nav id="nav">
-						<ul>
-							<li class="current"><a href="index.html">Welcome</a></li>
-							<li class="submenu">
-								<a href="#">Login</a>
-								<ul>
-									<li><a href="left-sidebar.html">Business</a></li>
-									<li><a href="right-sidebar.html">Developer</a></li>
-									<!-- <li><a href="contact.html">Contact</a></li> -->
-									<li class="submenu">
-										<a href="#">Submenu</a>
-										<ul>
-											<li><a href="#">Dolore Sed</a></li>
-											<li><a href="#">Consequat</a></li>
-											<li><a href="#">Lorem Magna</a></li>
-											<li><a href="#">Sed Magna</a></li>
-											<li><a href="#">Ipsum Nisl</a></li>
-										</ul>
-									</li>
-								</ul>
-							</li>
-							<li><a href="#" class="button special">Sign Up</a></li>
-						</ul>
-					</nav>
-				</header>
-
-			<!-- Banner -->
-				<section id="banner">
-
-					<!--
-						".inner" is set up as an inline-block so it automatically expands
-						in both directions to fit whatever's inside it. This means it won't
-						automatically wrap lines, so be sure to use line breaks where
-						appropriate (<br />).
-					-->
-					<div class="inner">
-
-						<header>
-							<h2>FLACK</h2>
-						</header>
-						<p> <strong>Flack</strong>						<br />
-						responsive bot 
-						<br />
-						  <img src="FacebookBot.png" align="center" style="padding-left: 20    px; padding-top: 0px"> 
-					 <a href="http://html5up.net"></a></p>
-						<footer>
-							<ul class="buttons vertical">
-								<!-- <li><a href="#main" class="button fit scrolly">Download Now</a></li> -->
-								<li><a href="app.js" download="app.js" class="button fit scrolly">Download Now</a></li>
-							</ul>
-						</footer>
-
-					</div>
-
-				</section>
-
-			<!-- Main -->
-				<article id="main">
-
-					<header class="special container">
-						<span class="icon fa-bar-chart-o"></span>
-						<h2>Let Flack take care of <strong>your business</strong> facebook messages	
-						<br />
-				
-					<!-- 	<p>Turns out <strong>Twenty</strong> was the best I could come up with. Anyway, lame name aside,
-						<br />
-						it's minimally designed, fully responsive, built on HTML5/CSS3/<strong>skel</strong>,
-						and, like all my stuff,
-						<br />
-						released for free under the <a href="http://html5up.net/license">Creative Commons Attribution 3.0</a> license. Have fun!</p> -->
-					</header>
-
-					<!-- One -->
-						<section class="wrapper style2 container special-alt">
-							<div class="row 50%">
-								<div class="8u 12u(narrower)">
-
-									<header>
-										<h2>Meet our mate <strong>Flack</strong> <br> She will take care of the canned responses so you don't have to!</h2>
-									</header>
-									<p>
 
 
-										Do you get sick of replying canned responses time and time again to your customers and clients? Sick of the wasted time?
-						<br>We hear you... and we might just be able to help!
-					Meet our mate Flack. She will take care of your customers facebook questions so you don't have to.</h2></p>
-									<footer>
-										<ul class="buttons">
-											<li><a href="#" class="button">Find Out More</a></li>
-										</ul>
-									</footer>
 
-								</div>
-								<div class="4u 12u(narrower) important(narrower)">
+	
 
-									<ul class="featured-icons">
-										<li><span class="icon fa-clock-o"><span class="label">Feature 1</span></span></li>
-										<li><span class="icon fa-volume-up"><span class="label">Feature 2</span></span></li>
-										<li><span class="icon fa-laptop"><span class="label">Feature 3</span></span></li>
-										<li><span class="icon fa-inbox"><span class="label">Feature 4</span></span></li>
-										<li><span class="icon fa-lock"><span class="label">Feature 5</span></span></li>
-										<li><span class="icon fa-cog"><span class="label">Feature 6</span></span></li>
-									</ul>
+<div class="col-sm-4" style="background-color: initial;none; height: 250px;"></div>
+</section>
 
-								</div>
-							</div>
-						</section>
+	<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+</div>
 
-					<!-- Two -->
-						<section class="wrapper style1 container special">
-							<div class="row">
-								<div class="4u 12u(narrower)">
 
-									<section>
-										<span class="icon featured fa-check"></span>
-										<header>
-											<h3>Easy to use</h3>
-										</header>
-										<p>All you have to download the Flack Bot, upload your canned responses and you are all set to go!</p>
-									</section>
 
-								</div>
-								<div class="4u 12u(narrower)">
 
-									<section>
-										<span class="icon featured fa-check"></span>
-										<header>
-											<h3>Save Time</h3>
-										</header>
-										<p>No more replying again and again with the same reponse. Flack saves you time by taking care of the responses for you. She also saves your customers time by prviding them instant responses. 
-									 </p>
-									</section>
 
-								</div>
-								<div class="4u 12u(narrower)">
 
-									<section>
-										<span class="icon featured fa-check"></span>
-										<header>
-											<h3>Happy Customers </h3>
-										</header>
-										<p>Customers will be left happy with instant responses and the support.</p>
-									</section>
+     	<p>	<p> <p>	<p> 
 
-								</div>
-							</div>
-						</section>
+<!-- ***************************Social Media -->
+<div>
+	<a class="btn btn-social-icon" href="https://www.github.com/janechester" target="_top">
+  		<i class="fa fa-github">
+  		</i>
+	</a>
+	<a class="btn btn-social-icon" href="http://www.twitter.com/janeychester" target="_top">
+  		<i class="fa fa-twitter"></i>
+	</a>
 
-					<!-- Three -->
-						<section class="wrapper style3 container special">
+<a class="btn btn-social-icon">
+  <i class="fa fa-instagram" href="http:/www.instagram.com/janeychester" target="_top"></i>
+</a>
 
-							<header class="major">
-								<h2>See her work some<strong> magic!</strong> </h2>
-							</header>
+<a class="btn btn-social-icon">
+  <i class="fa fa-linkedin" href="https://www.linkedin.com/in/janechester" target="_top"></i>
+  </a>
 
-							<div class="row">
-								<div class="6u 12u(narrower)">
+<a class="btn btn-social-icon">
+<i class="fa fa-envelope" href="mailto:jane_chester@hotmail.com?Subject=Hi%20Jane" target="_top"></i>
+</a>
+</div>
+</div>
+        <div class="container">
+            <div class="row" style="color:black">
+                <div class="col-md-4">
+                    <!-- <span class="copyright">Copyright &copy; Jane Chester 2016</span> -->
+                </div>
+               
+                 <div>
 
-									<section>
-										<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" / style="height:550px; width: 100%"></a>
-										<header>
-											<h3>Facebook Flack</h3>
-										</header>
-										<p>Flack taking care of your messages</p>
-									</section>
 
-								</div>
-								<div class="6u 12u(narrower)">
 
-									<section>
-										<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" / style="height:550px"></a>
-										<header>
-											<h3>Instant Responses</h3>
-										</header>
-										<p>No more waiting around for hours just to get repsonses. flack will reply within senconds!</p>
-									</section>
 
-								</div>
-							</div>
-							<!-- <div class="row">
-								<div class="6u 12u(narrower)">
+<!-- ***************************MODAL 1 -->
 
-									<section>
-										<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
-										<header>
-											<h3>Hyperspace Travel</h3>
-										</header>
-										<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
-									</section>
 
-								</div>
-								<div class="6u 12u(narrower)">
+<div id="about" class="modal fade" role="dialog" style="text-transform: none">
+		<p></p>
+	<section class="container-fluid">
+		<div class="row">
+			<div class="col-sm-4" style="background-color:none; height: 600px;"></div>
+			<div class="col-sm-4" style="background-color:#eee; height: 600px; border-radius: 2%">
+	<!-- </container>     -->
+<div style="padding-top:15px">
+<h1>About</h1> ___________
+<h2>
+<p>
+<h5 style="text-transform:none; color: grey"> 
 
-									<section>
-										<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
-										<header>
-											<h3>And Another Train</h3>
-										</header>
-										<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
-									</section>
+</h5>
+<img src="img/janey.jpg" style="height:300px; border-radius: 10%">
+<p>
+<p>
+<span class="glyphicon glyphicon-globe" aria-hidden="true"> Tasmania, Australia</span>
+</div>
+I have recently returned from San Francisco where I was studying an introductory programming course in combination with attending a number of coding community events and hackathons. I am currently living and studying in Australia with the intention of heading back to San Francisco to complete a 3 month coding bootcamp. 
+<div class="col-sm-4" style="background-color:none; height: 600px;">
+</div>
+</div>
+</div>
+</section>
+	<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+</div>
 
-								</div>
-							</div>
- -->
-							<footer class="major">
-								<ul class="buttons">
-									<li><a href="https://www.facebook.com/profile.php?id=100008809998824&fref=ts" target="_blank" class="button">See More</a></li>
-								</ul>
-							</footer>
 
-						</section>
 
-				</article>
 
-			<!-- CTA -->
-				<section id="cta">
 
-					<header>
-						<h2>Try her out <strong>today</strong>?</h2>
-						<p>Have Flack set up and running within minutes</p>
-					</header>
-					<footer>
-						<ul class="buttons">
-							<li><a href="#" class="button special">Download</a></li>
-							<li><a href="#" class="button">Login Now</a></li>
-						</ul>
-					</footer>
 
-				</section>
 
-			<!-- Footer -->
-				<footer id="footer">
 
-					<ul class="icons">
-						<li><a href="#" class="icon circle fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon circle fa-facebook"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon circle fa-google-plus"><span class="label">Google+</span></a></li>
-						<li><a href="#" class="icon circle fa-github"><span class="label">Github</span></a></li>
-						<li><a href="#" class="icon circle fa-dribbble"><span class="label">Dribbble</span></a></li>
-					</ul>
 
-					<ul class="copyright">
-						<li>&copy; Flack 2016</li><li><a href="http://html5up.net"></a></li>
-					</ul>
 
-				</footer>
+<!-- ***************************MODAL 2 -->
 
-		</div>
+<div id="myProjects" class="modal fade" role="dialog">
+<div class="modal-dialog">
+<section class="projects" style="text-transform: none">
+<div class="container-fluid">
+<div style="color: black">
+<P style="color:black">
+<div class="row">
+<div class="col-sm-12" style="background-color:#eee; height: 900px; opacity: 0.9; border-radius: 2%">
+<h1>PORTFOLIO
+</h1>   
+  ___________
+  <p>         
+<!-- RESPONSIVE BOT CLUB -->
+<div style="border:grey">
+    <h4 style="color: black"> Responsive Bot Club 
+</h4>
+    <h5>Launch Hackathon 2016 - San Francisco 
+</h5>
+    <img src="responsive_bot_club.jpg" style="width: 300px">
+    <p>
+        <img src="img/trophy.png" style="height: 50px">
+        <img src="img/intuit-logo.png" style="width: 100px">
+        <br class="jumbotron">
+        <strong> Second place</strong> - 'Most useful business application'
+        </br>
+        Developers - Jane Chester
+        <P>
+            <button type="button" class="btn btn-primary">View App 
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollgress.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
+</button>
+        </P>
+</div>
+<p>
+    <p>
+                  
+<!--LIVE LOCAL MUSIC -->
+<h4>
+	Local Live Music
+</h4>
+<h5>
+	Dev Bootcamp Hackathon 2016 - San Francisco
+</h5>
+<!-- <img src="llm.jpg" style="width: 300px"> -->
+<img src="llm1.jpg" style="width: 300px">
+<p></p>
+<img src="img/trophy.png" style="height: 50px">
+<img src="dbc.png" style="width: 100px">
+<div>
+	<strong>First Place</strong> - Overall Winner<br> Developers - Walter Kerr, Karla King, Jonathan Huang, Mark Janzer, Jane Chester & Steven Jing 
+</div>
+<p>
+<a href="http://www.google.com" target="_blank">
+<button type="button" class="btn btn-primary">
+	View App 
 
-	</body>
+
+</button>
+</a>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-primary" data-dismiss="modal">
+	Close
+</button>
+</div>   
+\  
+
+     
+
+
+
+<!-- *************************** END MODAL 2 -->
+
+
+
+
+<!-- ***************************MODAL 3 -->
+
+<!-- 
+
+<P>
+<section class="container-fluid">
+<div class="row">
+<div class="col-sm-4" style="background-color:none; height: 700px;"></div>
+<div class="col-sm-4" style="background-color:#eee; height: 700px;">
+</container>    
+<div style="padding-top:15px">
+<h1>About</h1> ___________
+<h2>
+<p>
+<h5 style="text-transform:none; color: grey"> 
+
+</h5>
+<img src="janey.jpg" style="height:300px; border-radius: 10%">
+<p>
+<p>
+<span class="glyphicon glyphicon-globe" aria-hidden="true"> Tasmania, Australia</span>
+</div>
+<h3>I have recently returned from San Francisco where I was studying an introductory programming course in combination with attending a number of coding community events and hackathons.  </h3>
+<div class="col-sm-4" style="background-color:none; height: 700px;">.col-sm-4</div>
+</div>
+</div>
+<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+</div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+
+                         <section class="section2">
+                         <div class="container-fluid">
+                         <div style="color: black">
+                         <P style="color:black">
+						 <div class="row"> -->
+                               
+
+
+      <!-- <div class="col-sm-4" style="background-color:none; height: 1500px; opacity: 0.9; border: 2px solid yellow">.Free Space</div> -->
+
+
+
+
+      
+<!-- <div class="col-md-6">
+info info info !!
+</div> -->
+<!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">X CLOSE<span aria-hidden="true">&times;</span></button>
+
+<button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color:white"><span aria-hidden="true">&times;</span> CLOSE</button> -->
+
+
+ <!-- Modal content-->
+    <!--   <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Modal Header</h4>
+        </div>
+        <div class="modal-body">
+          <p>Some text in the modal.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div> -->
+
+
+
+<p>
+
+</div>
+</div>
+
+
+
+                <!--     <button type="button" class="btn btn-primary">HTML <span class="badge"></span></button>
+            <button type="button" class="btn btn-primary">CSS <span class="badge"></span></button>
+            <button type="button" class="btn btn-primary">JavaScript <span class="badge"></span></button> -->
+            <div class="container-fluid">       
+            </div>
+
+
+<!-- Section 1 ************* BIOGRAPHY *************** -->
+       
+<P>
+             <section class="container-fluid">
+                    <div class="row">
+                        <!-- <div class="col-sm-3" style="background-color:none; height: 1200px; border: 2px solid green">Free Space</div> -->
+                        
+                        <!-- <div class="col-sm-12" style="background-color:#eee; height: 1200px; opacity: 0.9; border-radius: 1%;">
+                        
+                        </container>    
+                        
+						<div style="padding-top:15px"> -->
+						<!-- 	<button type="button" class="btn btn-primary btn-xlarge" style="size:100px">About <span class="badge"></span></button>   
+							<button type="button" class="btn btn-primary btn-xlarge" style="size:100px">Projects <span class="badge"></span></button>   
+							
+
+
+
+ <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal" height="260px">
+							<button type="button" class="btn btn-primary btn-xlarge" style="size:100px">Contact <span class="badge"></span></button> </a> -->
+
+
+
+
+<!-- 
+
+                         </div>
+                         <h1>BIO</h1> ___________
+                            <h2>
+                            <p>
+                             <h5 style="text-transform:none; color: grey"> 
+									I recently returned from living and studying in San Francisco. 
+                             </h5>
+                             <img src="janey.jpg" style="height:300px; border-radius: 10%">
+                             <p>
+                             <p>
+                          <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                        </div>
+                        <!-- <div class="col-sm-3" style="background-color:none; height: 1200px; border: 2px solid green">.col-sm-4</div> -->
+                    </div>
+            </div>
+             -->
+
+
+
+
+
+        <!--     <section class="section2">
+                <div class="container-fluid"> -->
+                    <!-- <h1>Hello World!</h1> -->
+                    <!-- <p>Resize the browser window to see the effect.</p> -->
+             <!--        <div style="color: black">
+                        <P style="color:black">
+                            <div class="row">
+                            <div class="col-sm-4" style="background-color: none; border: 2px solid red">.Free Space</div>
+                             <div class="col-sm-4" style="background-color:#eee; height: 1500px; opacity: 0.9;"> -->
+                  
+<!-- RESPONSIVE BOT CLUB -->
+               <!--    <h1>PORTFOLIO</h1> 
+                  ___________<p>
+             <h4 style="color: black"> Responsive Bot Club </h4>
+             <h6>Launch Hackathon 2016 - San Francisco </h6>
+             	<img src="responsive_bot_club.jpg" style="width:100px">
+             	<img src="trophy.png" style="height: 50px">
+             	<img src="intuit-logo.png" style="width: 100px">
+             <br class="jumbotron"> 
+             Second place - 'Most useful business application'</br>
+             Team - Jane Chester
+                 <button type="button" class="btn btn-primary">View App <span class="badge">yes</span></button>
+                 <p>
+                 <p> -->
+                  
+<!--LIVE LOCAL MUSIC -->
+                <!--          <p style="height: 100px"></p>
+                         <h4>Local Live Music</h4>
+                         <h6>Dev Bootcamp Hackathon 2016 - San Francisco</h6>
+                           <img src="llm.jpg" style="width: 100%">
+                           <img src="llm1.jpg" style="width: 100%">
+                           <img src="trophy.png" style="height: 50px">
+                           <img src="dbc.png" style="width: 100px">
+                         <br class="jumbotron"> First Place - Overall Winner</br>
+                         <h6> Developers - Walter Kerr, Karla King, Jonathan Huang, Mark Janzer, Jane Chester & Steven Jing </h6>
+                         <p>
+                         <button type="button" class="btn btn-primary">View App <span class="badge">yes</span></button>
+                          </div>
+                           <section class="section2">
+                         <div class="container-fluid">
+                          <div style="color: black">
+                               <P style="color:black">
+								<div class="row">
+                                -->
+
+
+      <!-- <div class="col-sm-4" style="background-color:none; height: 1500px; opacity: 0.9; border: 2px solid yellow">.Free Space</div>
+       -->
+
+
+
+<!-- COMM\
+
+
+
+      <div class="col-sm-4" style="background-color:#eee; height: 1500px; opacity: 0.9;">
+ 
+
+
+ <h1>PORTFOLIO</h1> ___________
+                                                        <p>
+                                                            <h4 style="color: black">  Responsive Bot Club  </h4>
+                                                            <h6>Launch Hackathon 2016 - San Francisco
+        	             
+        	             </h6>
+                                                            <img src="responsive_bot_club.jpg" style="width:100%">
+                                                            <img src="trophy.png" style="height: 50px">
+                                                            <img src="intuit-logo.png" style="width: 100px">
+                                                            <br class="jumbotron"> Second place - 'Most useful business application'</br>
+                                                            Team - Jane Chester
+                                                            <p>
+                                                                <button type="button" class="btn btn-primary">View App <span class="badge">yes</span></button>
+                                                                <p>
+                                                                    <p>
+
+
+
+
+
+
+
+                                  
+                                <!--   <div class="row">
+	                    <div class="col-md-4">
+	                        <div class="test">
+	                            <div class="container">
+	                                <div class="jumbotron carpet">
+	                                    <h1>Jane Chester</h1>
+	                                    <p>Beginner in CSS HTML & JAVACRIPT</p>
+	                                </div>
+	                                <p>This is some text.</p>
+	                                <p>This is another text.</p>
+	                            </div>
+	                        </div>
+	                    </div>
+	                </div> -->
+                                <!--   <div class="row">
+                    <div class="col-md-4">
+                        <a href="pulpitrock.jpg" class="thumbnail">
+                            <p>Pulpit Rock: A famous tourist attraction in Forsand, Ryfylke, Norway.</p>
+                            <img src="pulpitrock.jpg" alt="Pulpit Rock" style="width:150px;height:150px">
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="moustiers-sainte-marie.jpg" class="thumbnail">
+                            <p>Moustiers-Sainte-Marie: Considered as one of the "most beautiful villages of France".</p>
+                            <img src="moustiers-sainte-marie.jpg" alt="Moustiers Sainte Marie" style="width:150px;height:150px">
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="cinqueterre.jpg" class="thumbnail">
+                            <p>The Cinque Terre: A rugged portion of coast in the Liguria region of Italy.</p>
+                            <img src="cinqueterre.jpg" alt="Cinque Terre" style="width:150px;height:150px">
+                        </a>
+                    </div>
+                </div> -->
+                                <!-- Trigger the modal with a button -->
+                             <!--    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button> -->
+                                <!-- Modal -->
+                                <div id="myModal" class="modal fade" role="dialog">
+                                    <div class="modal-dialog">
+                                        <!-- Modal content-->
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                <h4 class="modal-title">Modal Header</h4>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>Some text in the modal.</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <h2><button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- <div class="span12 pagination-centered">
+    Centered content.
+</div> -->
+                                <!--       <div class="jumbotron">
+                    <div class="container text-center">
+                        <h1>The easiest and powerful way</h1>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="top-bg"></div>
+                            </div>
+                            <div class="col-md-5 iPhone-features" style="margin-left:-25px;">
+                                <ul class="top-features">
+                                    <li>
+                                        <span><i class="fa fa-random simple_bg top-features-bg"></i></span>
+                                        <p><strong>Redirect</strong>
+                                            <br>Visitors where they converts more.</p>
+                                    </li>
+                                    <li>
+                                        <span><i class="fa fa-cogs simple_bg top-features-bg"></i></span>
+                                        <p><strong>Track</strong>
+                                            <br>Views, Clicks and Conversions.</p>
+                                    </li>
+                                    <li>
+                                        <span><i class="fa fa-check simple_bg top-features-bg"></i></span>
+                                        <p><strong>Check</strong>
+                                            <br>Constantly the status of your links.</p>
+                                    </li>
+                                    <li>
+                                        <span><i class="fa fa-users simple_bg top-features-bg"></i></span>
+                                        <p><strong>Collaborate</strong>
+                                            <br>With Customers, Partners and Co-Workers.</p>
+                                    </li>
+                                    <a href="pricing-and-signup.html" class="btn-primary btn h2 lightBlue get-Started-btn">GET STARTED</a>
+                                    <h6 class="get-Started-sub-btn">FREE VERSION AVAILABLE!</h6>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                                <!-- 
+<div>
+		
+	<nav class='nav'>
+	<div>
+		<li class="nav-bar">Home</li>
+		<li class="nav-bar">About</li>
+		<li class="nav-bar">Portfolio</li>
+		<li class="nav-bar">Contact</li>
+	</div>
+	</nav>	
+</div> -->
+
+
+
+		<!-- Footer -->
+			
+
+<!-- <p >
+
+
+
+					
+				    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4" style="background-color: gray"> -->
+                    <!-- <span class="copyright">Copyright &copy; Jane Chester 2016</span> -->
+              <!--   </div> -->
+          <!--       <div class="col-md-12" style="background-color: gray">
+                    <ul class="list-inline social-buttons">
+                        <li><a href="http://www.twitter.com/janeychester"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li><a href="http:/www.instagram.com/janeychester"><i class="fa fa-instagram"></i></a> 
+                        </li> 
+                        <li><a href="https://www.github.com/janechester"><i class="fa fa-github"></i></a>
+                        </li>
+                        <li><a href="https://www.linkedin.com/in/janechester"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                        <li><a href="mailto:jane_chester@hotmail.com?Subject=Hi%20Jane" target="_top">                <i class="fa fa-envelope"></i></a>
+                        </li>
+                    </ul>
+
+
+                </div> -->
+<!--                  <div>
+
+
+
+<div id="portfolioModal1">Portfolio link</div> -->
+
+                 <!-- Modal one*******************one*******************one******************* -->
+
+
+
+<!--     <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body"> -->
+                            <!-- Project Details Go Here -->
+                           <!--  <h2>Dev Bootcamp Hackathon</h2>
+                            <p class="item-intro text-muted">San Francisco, January 2016</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/shows.png" alt=""> -->
+                         <!--    <p>The following was a Dev Bootcamp Hackathon running for 12 hours held in San Francisco </p>
+                            <p>
+                                <strong>Background: 13 Teams of six. Mixture of beginner & intermediate webdevelopers.<br>Task: Create something that will help tourists in San Francisco<br>
+                                Our Idea: xxxx<br>Team: Walter, Karla, Mark, Steven, Jonathan </strong><br>Functionalities used: Geocoding, Scraping</p><br></p></p> Ruby on Rails, JQuery, Bootstrap, Nokogiri, HTML, CSS, javascript </p>View this project on -->
+
+<!-- 
+                                <a href="https://github.com/WALTERKERR/ShowsNearMe">View this project on <strong>Github</strong></a>
+                            <ul class="list-inline">
+                                  <img  src="img/trophy.png" style="position: centered" tyle="font-size: 60px; top:45px" alt="">
+
+                             <img class="img-responsive img-centered" src="img/Timeline.png" alt="">
+                              <li>Type: Hackathon</li><br>
+                                <li>Date: 23 January 2016</li><br>
+                                <li>Location: Dev Bootcamp - 633 Folsom, San Francisco, CA 94107</li><br>
+                               
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Back</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    -->              
+                 
+                 <!-- <span class="copyright">Copyright &copy; Jane Chester 2016</span> -->
+                 </div>
+          <!--       <div class="col-md-4">
+                    <ul class="list-inline quicklinks">
+                        <li><a href="#">Privacy Policy</a>
+                        </li>
+                        <li><a href="#">Terms of Use</a>
+                        </li>
+                    </ul>
+                </div> -->
+            <!-- </div><p><span class="copyright">&copy; Jane Chester 2016</p></span> -->
+        </div>
+        </div><p>
+        <footer>
+<div class="col-md-12">
+        <span class="copyright" style="transform: none; color:white">&copy; Jane Chester 2016</p></span>
+        </div>
+    </footer>
+
+
+
+
+</body>
+
 </html>
