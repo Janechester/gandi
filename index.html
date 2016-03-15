@@ -94,6 +94,9 @@
         color: #36A0FF;
     }
 
+    .modal-content {
+        color: black;
+    }
 
     </style>
 </head>
@@ -105,15 +108,16 @@
         <header class="major">
             <div class="col-md-12>">
                 <h1 style="font-size: 50px ">Jane Chester</h1>
-                <p style="padding-top: none; padding-bottom: 10px; font-size: 20px; text-transform:none">Junior Software Developer
+                <p style="padding-top: none; padding-bottom: 10px; font-size: 20px; ">Junior Software Developer
+              <!-- <p> <h5> <img src="img/map_pin.png" style="height: 25px">Current City: Tasmania, Australia</h5> -->
 <!-- ***************************HEADER (end) -->                    
 
 
 <!-- ***************************BUTTONS  -->					
 <div style="padding-bottom: 175px; text-transform: none">               
-	<button type="button" class="btn btn-primary glyphicon glyphicon-user" style="text-transform: none" data-toggle="modal" data-target="#about"> About</button>    
-	<button type="button" class="btn btn-primary glyphicon glyphicon-folder-open"  style="text-transform: none" data-toggle="modal" data-target="#myProjects"> Projects</button>
-	<button type="button" class="btn btn-primary glyphicon glyphicon-earphone" style="text-transform: none" data-toggle="modal" data-target="#contact"> Contact</button> 
+	<button type="button" class="btn btn-default" style="text-transform: none" data-toggle="modal" data-target="#about"> <img src="img/user_folder.png" style="height:30px"> About</button>    
+	<button type="button" class="btn btn-default"  style="text-transform: none" data-toggle="modal" data-target="#myProjects"> <img src="img/trophy.png" style="height:30px"> Projects</button>
+	<button type="button" class="btn btn-default" style="text-transform: none" data-toggle="modal" data-target="#contact"><img src="img/phone.png" style="height:30px"> Contact</button> 
 <div>
 <!-- ***************************BUTTONS(end)  -->
   
@@ -137,7 +141,7 @@
 
 
 <!-- ***************************Social Media -->
-<div>
+<!-- <div>
 <i class="btn btn-social-icon">
   <a class="fa fa-twitter" href="http://www.twitter.com/janeychester" target="_blank">
 </a></i>
@@ -153,12 +157,69 @@
 <i class="btn btn-social-icon">
   <a class="fa fa-envelope" href="mailto:jane_chester@hotmail.com?Subject=Hi%20Jane" target="_top">
 </a></i>
-	</div>
+	</div> -->
 <!-- ***************************Social Media (end) -->
 
 
 <!-- ***************************About Modal -->
-<div id="about" class="modal fade" role="dialog" style="text-transform: none; color:black">
+
+
+
+
+
+
+<div class="modal fade" id="about" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">About</h4>
+      </div>
+      <div class="modal-body">
+
+         <img src="img/jane.jpg" style="height:200px; border-radius: 10%"><p><p>                                  
+        <!-- <h5><img src="img/map_pin.png" style="height: 25px">Current City: Tasmania, Australia</h5> -->
+
+       <p style="color: black">
+        <img src="img/globe.png" style="height: 25px"> Hometown: Tasmania, Australia <p>
+
+       I have recently returned from San Francisco where I was studying an introductory programming course in combination with attending a number of coding community events and hackathons. I am currently living and studying in Australia with the intention of heading back to San Francisco to complete a 3 month coding bootcamp.</p>
+    
+    <div>
+<i class="btn btn-social-icon">
+  <a class="fa fa-twitter" href="http://www.twitter.com/janeychester" target="_blank">
+</a></i>
+<i class="btn btn-social-icon">
+  <a class="fa fa-instagram" href="http:/www.instagram.com/janeychester" target="_blank">
+</a></i>
+<i class="btn btn-social-icon">
+  <a class="fa fa-github" href="https://www.github.com/janechester" target="_blank">
+</a></i>
+<i class="btn btn-social-icon">
+  <a class="fa fa-linkedin" href="https://www.linkedin.com/in/janechester" target="_blank">
+</a></i>
+<i class="btn btn-social-icon">
+  <a class="fa fa-envelope" href="mailto:jane_chester@hotmail.com?Subject=Hi%20Jane" target="_top">
+</a></i>
+    </div>
+
+
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+<!-- <div id="about" class="modal fade" role="dialog" style="text-transform: none; color:black">
     <p></p>
     <section class="container-fluid">
         <div class="row">
@@ -176,7 +237,7 @@
         </div>
      </section>
 			<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-</div>
+</div> -->
 <!-- ***************************About Modal (end) -->
 
 
@@ -227,15 +288,23 @@
 	<div class="modal-footer"> 
 		<button type="button" class="btn btn-primary" data-dismiss="modal">
 	Close</button>
-	</div>   
+	   </div>   
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
 
 <!-- ***************************My Projects Modal 2 (end) -->
 
 
 
 
- <footer>
+ <footer style="padding-top: 250px">
 	<div class="col-md-12">
+
+
         <span class="copyright" style="transform: none; color:white">&copy; Jane Chester 2016</p></span>
     </div>
 </footer>
